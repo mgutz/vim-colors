@@ -118,10 +118,10 @@ hi link treeExecFile            Type
 hi link mkdCode                Comment 
 
 " PHP
-hi link phpDefineFuncName       Function
-hi link phpEcho                 Keyword
-hi link phpQuoteDouble          String
-hi link phpQuoteSingle          String
-hi link phpRegionDelimiter      PreProc
-hi link phpSemicolon            Normal
-hi link phpVarSelector          Identifier
+"hi link phpDefineFuncName       Function
+"hi link phpEcho                 Keyword
+"hi link phpQuoteDouble          String
+"hi link phpQuoteSingle          String
+"hi link phpRegionDelimiter      PreProc
+"hi link phpSemicolon            Normal
+"hi link phpVarSelector          Identifier

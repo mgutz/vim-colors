@@ -117,6 +117,19 @@ hi link treeExecFile            Type
 " Markdown
 hi link mkdCode                Comment 
 
+
+" tpope's vim-markdown
+hi link markdownCodeBlock       Statement
+hi link markdownCode            Statement 
+hi link markdownCodeDelimiter   Statement
+hi link markdownHeadingDelimiter Title
+hi markdownLinkText 		guifg=#89e14b gui=underline
+hi link markdownLinkTextDelimiter    Comment 
+hi link markdownLinkDelimiter Comment
+hi link markdownUrl Comment
+
+
+
 " PHP
 "hi link phpDefineFuncName       Function
 "hi link phpEcho                 Keyword

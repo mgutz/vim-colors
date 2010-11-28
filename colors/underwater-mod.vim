@@ -129,6 +129,9 @@ hi link markdownLinkDelimiter Comment
 hi link markdownUrl Comment
 
 
+hi link htmlSpecialChar Constant
+
+
 
 " PHP
 "hi link phpDefineFuncName       Function

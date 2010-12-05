@@ -52,13 +52,13 @@ hi Visual		guifg=#dfeff6   guibg=#24557A gui=none
 hi Comment 		guifg=#69839a   guibg=bg      gui=italic
 hi Constant 	        guifg=#96defa   gui=none
 hi Function 	        guifg=#9e7cd7   gui=none
-hi Identifier 	        guifg=#8ac6f2   gui=none
+hi Identifier 	        guifg=#a5a1ea   gui=none
 hi Ignore 		guifg=bg        guibg=bg      gui=none
 hi Keyword		guifg=#8ac6f2   gui=none
 hi Number		guifg=#dfe1b7   gui=none
 hi PreProc 		guifg=#f99d71   gui=none
 hi Special		guifg=lightmagenta gui=none
-hi Statement 	        guifg=#7cd5d7   gui=none
+hi Statement 	        guifg=#8ac6f2   gui=none
 hi String 		guifg=#89e14b   gui=italic
 hi Todo 		guifg=#ADED80   guibg=bg      gui=bold
 hi Type 		guifg=#489fd7   gui=none

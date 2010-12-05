@@ -52,7 +52,7 @@ hi Visual		guifg=#dfeff6   guibg=#24557A gui=none
 hi Comment 		guifg=#69839a   guibg=bg      gui=italic
 hi Constant 	        guifg=#96defa   gui=none
 hi Function 	        guifg=#9e7cd7   gui=none
-hi Identifier 	        guifg=#a5a1ea   gui=none
+hi Identifier 	        guifg=#f46ea6   gui=none
 hi Ignore 		guifg=bg        guibg=bg      gui=none
 hi Keyword		guifg=#8ac6f2   gui=none
 hi Number		guifg=#dfe1b7   gui=none

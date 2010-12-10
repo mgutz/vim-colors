@@ -131,8 +131,6 @@ hi link markdownUrl Comment
 
 hi link htmlSpecialChar Constant
 
-
-
 " PHP
 "hi link phpDefineFuncName       Function
 "hi link phpEcho                 Keyword

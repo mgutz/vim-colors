@@ -1,71 +1,67 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Author: Mario Gutierrez (mario@mgutz.com)
 " Last Change: Dececember 6, 2010 
-" Version: 0.1.2
-"
-" cursorColumn fix from Vincent Bethoux
+" Version: 0.1
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
 
 set background=dark
 hi clear
 if exists("syntax_on")
   syntax reset
 endif
-let colors_name = "chance-of-storm"
+let colors_name = "southwest-fog"
 
 
 """""""""" General
 
-hi Normal 		guifg=#D9D9D9   guibg=#181c20 gui=none
+hi Normal 		guifg=#b0bdcb   guibg=#26292e gui=none
 
-" Vim >= 7.0
 if version >= 700
-  hi CursorColumn       guibg=#2a2e31
-  hi CursorLine         guibg=#2a2e31
+  hi CursorColumn       guibg=#30333a
+  hi CursorLine         guibg=#30333a
   hi MatchParen         guifg=magenta   guibg=black   gui=bold,italic
-  hi Pmenu 		guifg=#dfeff6   guibg=#1E415E
-  hi PmenuSel 	        guifg=#dfeff6   guibg=#2D7889
+  hi Pmenu 		guifg=bg        guibg=#957b94
+  hi PmenuSel 	        guifg=bg        guibg=#a694b3
 
-  hi IncSearch          guifg=bg        guibg=#AF81F4 gui=bold
-  hi Search             guifg=bg        guibg=#AF81F4 gui=none
+  hi IncSearch          guifg=bg        guibg=#9d94b3 gui=bold
+  hi Search             guifg=bg        guibg=#9d94b3 gui=none
 endif
 
-hi Cursor 		guifg=bg        guibg=#8fdef9 gui=none
-hi Folded 		guifg=#68CEE8   guibg=#1A3951 gui=none
-hi FoldColumn           guifg=#1E415E   guibg=#1A3951 gui=none
-hi LineNr 		guifg=#2e363d   guibg=bg      gui=none
-" e.g. tildes at the end of file
-hi NonText 		guifg=#2e363d   guibg=bg      gui=none
+hi Cursor 		guifg=bg        guibg=#73b87f gui=none
+hi ErrorMsg             guifg=fg        guibg=#aa2e34 gui=none
+hi Folded 		guifg=fg        guibg=#3f4c4d gui=none
+hi FoldColumn           guifg=red       guibg=#3f4c4d gui=none
+hi LineNr 		guifg=#44484f   guibg=bg      gui=none
+hi NonText 		guifg=#44484f   guibg=bg      gui=none
 hi Question             guifg=#6dbb6d   guibg=bg      gui=none
-hi StatusLine 	        guifg=lightmagenta   guibg=#060809 gui=none
-hi StatusLineNC         guifg=#69839a   guibg=#060809 gui=none
+hi StatusLine 	        guifg=#b0d3bb   guibg=#131417 gui=none
+hi StatusLineNC         guifg=#5a6c60   guibg=#131417 gui=none
 hi TabLine              guifg=#555555   guibg=#dddddd gui=none
 hi TabLineFill 		guifg=fg        guibg=#dddddd gui=none
 hi TabLineSel           guifg=#101010   guibg=#b0b0b0 gui=none
-hi Title 		guifg=#ef7760   guibg=bg      gui=none
-hi VertSplit 	        guifg=#060809   guibg=#060809 gui=bold
- " Selected text color
-hi Visual		guifg=#dfeff6   guibg=#24557A gui=none
+hi Title 		guifg=#d7969d   guibg=bg      gui=none
+hi VertSplit 	        guifg=#131417   guibg=#131417 gui=none
+hi Visual		guifg=bg        guibg=#94b3b3 gui=none
 hi WarningMsg           guifg=#bb6d6d   guibg=bg      gui=none
 
 
 """""""""" Syntax highlighting
 
-hi Comment 		guifg=#69839a   guibg=bg      gui=italic
-hi Constant 	        guifg=#96defa   gui=none
-hi Function 	        guifg=#9e7cd7   gui=none
-hi Identifier 	        guifg=#2ed6d7   gui=none
+hi Comment 		guifg=#5a6c60   guibg=bg      gui=italic
+hi Constant 	        guifg=#b1c7ad   gui=none
+hi Error                guifg=fg        guibg=#aa2e34 gui=none
+hi Function 	        guifg=#cccbb1   gui=none
+hi Identifier 	        guifg=#b89e93   gui=none
 hi Ignore 		guifg=bg        guibg=bg      gui=none
-hi Keyword		guifg=#8ac6f2   gui=none
+hi Keyword		guifg=#ccc0b1   gui=none
 hi Number		guifg=#e1d4a8   gui=none
-hi PreProc 		guifg=#f99d71   gui=none
-hi Special		guifg=#ffcde4   gui=none
-hi Statement 	        guifg=#8ac6f2   gui=none
-hi String 		guifg=#89e14b   gui=none
-hi Todo 		guifg=#ADED80   guibg=bg      gui=bold
-hi Type 		guifg=#489fd7   gui=none
-hi Underlined 	        guifg=#8ac6f2   gui=underline
+hi PreProc 		guifg=#bbacc7   gui=none
+hi Special		guifg=#c7d7f1   gui=none
+hi Statement 	        guifg=#ccc0b1   gui=none
+hi String 		guifg=#9a7bb2   gui=none
+hi Todo 		guifg=#bebb83   guibg=bg      gui=bold
+hi Type 		guifg=#cbb0b2   gui=none
+hi Underlined 	        guifg=#bea483   gui=underline
 
 
 """"""""""" ERB
@@ -113,7 +109,7 @@ hi link markdownCodeBlock           Statement
 hi link markdownCode                Statement 
 hi link markdownCodeDelimiter       Statement
 hi link markdownHeadingDelimiter    Title
-hi      markdownLinkText 	    guifg=#489fd7   gui=underline
+hi      markdownLinkText 	    guifg=#cbb0b2   gui=underline
 hi      markdownUrl                 guifg=#69839a   guibg=bg        gui=none
 hi link markdownLinkTextDelimiter   markdownUrl 
 hi link markdownLinkDelimiter       markdownUrl 
@@ -141,8 +137,8 @@ hi link phpVarSelector      Identifier
 
 """""""""" Ruby
 
-hi      rubyAccess                  guifg=#ef7760 guibg=bg gui=italic
-hi      rubyInterpolation           guifg=#c2f0a2 guibg=bg 
+hi link rubyAccess                  PreProc 
+hi      rubyInterpolation           guifg=#f6abf1 guibg=bg 
 hi link rubyInterpolationDelimiter  rubyInterpolation
 hi link rubyStringDelimiter         String
 

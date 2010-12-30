@@ -33,7 +33,7 @@ hi LineNr 		guifg=#1c3249   guibg=bg        gui=none
 hi Normal 		guifg=#e3f3fa   guibg=#102235   gui=none
 hi NonText 		guifg=#1c3249   guibg=bg        gui=none
 hi StatusLine 	        guifg=#ffec99   guibg=#0a1721   gui=none
-hi StatusLineNC         guifg=#1c3249   guibg=#0a1721   gui=none
+hi StatusLineNC         guifg=#4e6f91   guibg=#0a1721   gui=none
 hi TabLine              guifg=#555555   guibg=#dddddd   gui=none
 hi TabLineSel           guifg=#101010   guibg=#b0b0b0   gui=none
 hi TabLineFill 		guifg=fg        guibg=#dddddd   gui=none

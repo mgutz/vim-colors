@@ -27,8 +27,8 @@ endif
 """""""" General colors
 
 hi Cursor 		guifg=black     guibg=#55A096   gui=none
-hi Folded 		guifg=#68CEE8   guibg=#1A3951   gui=none
-hi FoldColumn           guifg=#1E415E   guibg=#1A3951   gui=none
+hi Folded 		guifg=#4e6f91   guibg=bg        gui=none
+hi FoldColumn           guifg=#ef7760   guibg=bg        gui=none
 hi LineNr 		guifg=#1c3249   guibg=bg        gui=none
 hi Normal 		guifg=#e3f3fa   guibg=#102235   gui=none
 hi NonText 		guifg=#1c3249   guibg=bg        gui=none

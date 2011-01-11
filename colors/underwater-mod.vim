@@ -1,9 +1,11 @@
 " Maintainer: Mario Gutierrez (mario@mgutz.com)
 " Original Theme: Dmitry Kichenko (dmitrykichenko@gmail.com)
 " Last Change: Dec 28, 2010
-" Version: 0.3
+" Version: 0.4
+"
+"  fold color
 
-let colors_name = "underwater-mod"
+let colors_name="underwater-mod"
 
 set background=dark
 hi clear
@@ -11,7 +13,6 @@ hi clear
 if exists("syntax_on")
     syntax reset
 endif
-
 
 if version >= 700
     hi CursorLine       guibg=#18374F
@@ -27,7 +28,11 @@ endif
 """""""" General colors
 
 hi Cursor 		guifg=black     guibg=#55A096   gui=none
-hi Folded 		guifg=#4e6f91   guibg=bg        gui=none
+hi DiffAdd              guifg=fg        guibg=#6195ea   gui=none
+hi DiffChange           guifg=fg        guibg=#c361ea   gui=none
+hi DiffDelete           guifg=#1b9bca   guibg=#61c5ea   gui=none
+hi DiffText             guifg=fg        guibg=#971bc9   gui=none
+hi Folded 		guifg=#4e918d   guibg=bg        gui=bold
 hi FoldColumn           guifg=#ef7760   guibg=bg        gui=none
 hi LineNr 		guifg=#1c3249   guibg=bg        gui=none
 hi Normal 		guifg=#e3f3fa   guibg=#102235   gui=none
@@ -44,7 +49,6 @@ hi Visual		guifg=#dfeff6   guibg=#24557A   gui=none
 
 hi ErrorMsg             guifg=fg        guibg=#C62626
 hi WarningMsg           guifg=#C62626   guibg=bg
-
 
 
 """""""" Syntax highlighting
@@ -96,7 +100,15 @@ hi link htmlSpecialChar         Constant
 """""""" JavaScript
 
 hi link javaScriptFunction      Function
+hi link javaScriptFuncName      Function
 hi link javaScriptDocSeeTag     Underlined 
+hi link javaScriptLabel         Constant
+
+
+"""""""" Makefile 
+
+hi link makeCommands            Normal 
+hi link makeTarget              Constant 
 
 
 """""""" Markdown - tpope's

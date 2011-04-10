@@ -122,17 +122,17 @@ hi link markdownLinkDelimiter       markdownUrl
 
 """"""""""" NERDTree
 
-hi link treePart            NonText
-hi link treePartFile        treePart 
-hi link treeDirSlash        treePart
-hi link treeDir             Statement 
-hi link treeClosable        PreProc
-hi link treeOpenable        treeClosable
-hi link treeUp              treeClosable 
-hi      treeFlag            guifg=#3e71a1 guibg=bg gui=none
-hi link treeHelp            Comment
-hi link treeLink            Type
-hi link treeExecFile        Type
+hi link NERDTreePart            NonText
+hi link NERDTreePartFile        NERDTreePart 
+hi link NERDTreeDirSlash        NERDTreePart
+hi link NERDTreeDir             Statement 
+hi link NERDTreeClosable        PreProc
+hi link NERDTreeOpenable        NERDTreeClosable
+hi link NERDTreeUp              NERDTreeClosable 
+hi      NERDTreeFlag            guifg=#3e71a1 guibg=bg gui=none
+hi link NERDTreeHelp            Comment
+hi link NERDTreeLink            Type
+hi link NERDTreeExecFile        Type
 
 
 """""""""" PHP 

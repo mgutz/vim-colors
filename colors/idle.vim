@@ -144,17 +144,17 @@ hi link markdownUrl                 Comment
 
 """""""" NERDTree
 
-hi link treeClosable            PreProc
-"hi link treeDir                 Statement 
-hi link treeDirSlash            NonText 
-hi link treeExecFile            Type
-hi      treeFlag                guifg=#3e71a1 guibg=bg gui=none
-hi link treeHelp                Comment
-hi link treeLink                Type
-hi link treePart                NonText 
-hi link treePartFile            NonText 
-hi link treeOpenable            treeClosable
-hi link treeUp                  treeClosable 
+hi link NERDTreeClosable            PreProc
+"hi link NERDTreeDir                 Statement 
+hi link NERDTreeDirSlash            NonText 
+hi link NERDTreeExecFile            Type
+hi      NERDTreeFlag                guifg=#3e71a1 guibg=bg gui=none
+hi link NERDTreeHelp                Comment
+hi link NERDTreeLink                Type
+hi link NERDTreePart                NonText 
+hi link NERDTreePartFile            NonText 
+hi link NERDTreeOpenable            NERDTreeClosable
+hi link NERDTreeUp                  NERDTreeClosable 
 
 
 """""""" Ruby

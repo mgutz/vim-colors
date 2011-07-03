@@ -7,3 +7,12 @@ Colorschemes for gVim or MacVim.
 * southwest-fog : low contrast southwestern colors : [screenshot](http://img46.imageshack.us/img46/6466/asyncbeforeaftertestjsc.png)
 * underwater-mod : darkish blue with bright colors : [screenshot](http://img193.imageshack.us/img193/8104/screenshot20100623at319.png)
 
+Underwater-mod 0.5:
+
+* Added better looking tabline. To enable, add `g:mgutz_tabs`
+
+    let g:mgutz_tab=1
+    colorscheme underwater-mod
+
+* Removed italics on string to help w/ regex literals
+

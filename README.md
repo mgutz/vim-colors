@@ -9,9 +9,10 @@ Colorschemes for gVim or MacVim.
 
 Underwater-mod 0.5:
 
-* Added better looking tabline. To enable, add `g:mgutz_tabs`
+* Added simpler tabline with tab numbers instead of number of windows,
+  which is not really helpful. To enable, add `g:mgutz_tabline`
 
-    let g:mgutz_tab=1
+    let g:mgutz_tabline=1
     colorscheme underwater-mod
 
 * Removed italics on string to help w/ regex literals

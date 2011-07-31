@@ -3,7 +3,7 @@
 " Last Change: Jul 2, 2011
 " Version: 0.5
 "
-" To use custom tabline, add to .gvimrc:
+" To use custom tabline, add this line to .gvimrc before using colorscheme:
 "   let g:mgutz_tabline=1
 
 set background=dark
@@ -72,96 +72,7 @@ hi Type                 guifg=#5ba0eb   guibg=bg        gui=none
 hi Underlined           guifg=#8ac6f2   guibg=bg        gui=underline
 
 
-"""""""" Coffee
+runtime colors/_common_syntax.vim
 
-hi link coffeeInterpolation     Special
-
-
-"""""""" ERB
-
-hi link erubyDelimiter          PreProc
-
-
-"""""""" HAML
-
-hi link hamlAttributes          htmlArg
-hi link hamlTag                 htmlTag
-hi link hamlTagName             htmlTagName
-hi link hamlIdChar              hamlId
-hi link hamlClassChar           hamlClass
-hi link hamlInterpolation       Special
-
-
-"""""""" HTML
-
-hi link htmlTag                 Statement
-hi link htmlEndTag              Statement
-hi link htmlTagName             Statement
-hi link htmlSpecialChar         Constant
-
-
-"""""""" JavaScript
-
-hi link javaScriptFunction      Function
-hi link javaScriptFuncName      Function
-hi link javaScriptDocSeeTag     Underlined
-hi link javaScriptLabel         Constant
-
-
-"""""""" Makefile
-
-hi link makeCommands            Normal
-hi link makeTarget              Constant
-
-
-"""""""" Markdown - tpope's
-
-hi link markdownCodeBlock           Statement
-hi link markdownCode                Statement
-hi link markdownCodeDelimiter       Statement
-hi link markdownHeadingDelimiter    Title
-hi link markdownLinkText            Underlined
-hi link markdownLinkTextDelimiter   Comment
-hi link markdownLinkDelimiter       Comment
-hi link markdownListMarker          Constant
-hi link markdownUrl                 Comment
-
-
-"""""""" NERDTree
-
-hi link NERDTreeClosable            PreProc
-hi link NERDTreeDir                 Statement
-hi link NERDTreeDirSlash            NonText
-hi link NERDTreeExecFile            Type
-hi      NERDTreeFlag                guifg=#3e71a1 guibg=bg gui=none
-hi link NERDTreeHelp                Comment
-hi link NERDTreeLink                Type
-hi link NERDTreePart                NonText
-hi link NERDTreePartFile            NonText
-hi link NERDTreeOpenable            NERDTreeClosable
-hi link NERDTreeUp                  NERDTreeClosable
-
-
-"""""""" Ruby
-
-hi rubyAccess                       guifg=#ef7760 guibg=bg gui=italic
-hi link rubyBlockParameter          Normal
-hi link rubyInterpolation           Special
-hi link rubyInterpolationDelimiter  Special
-hi link rubyStringDelimiter         String
-
-
-"""""""" SH
-
-hi link shQuote                 String
-
-
-"""""""" XML
-
-hi link xmlEndTag               htmlEndTag
-hi link xmlTag                  htmlTag
-hi link xmlTagName              htmlTagName
-
-if exists("g:mgutz_tabline")
-    runtime colors/_mgutz_tabline.vim
-endif
+hi NERDTreeFlag         guifg=#3e71a1 guibg=bg gui=none
+hi rubyAccess           guifg=#ef7760 guibg=bg gui=italic

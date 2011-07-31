@@ -1,3 +1,5 @@
+hi SignColumn                   ctermbg=none guibg=bg
+
 """""""" Coffee
 hi link coffeeInterpolation     Special
 

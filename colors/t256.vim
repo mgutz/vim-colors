@@ -11,7 +11,7 @@ if version > 580
     endif
 endif
 
-let colors_name = "fifty-six"
+let colors_name = "t256"
 
 
 " General colors
@@ -29,6 +29,7 @@ hi LineNr       ctermfg=233     ctermbg=16      cterm=none
 hi SpecialKey   ctermfg=241     ctermbg=235     cterm=none
 hi WarningMsg   ctermfg=203
 hi ErrorMsg     ctermfg=196     ctermbg=236     cterm=bold
+hi SpecialKey   ctermfg=233     ctermbg=16      cterm=none
 
 " Vim >= 7.0 specific colors
 if version >= 700

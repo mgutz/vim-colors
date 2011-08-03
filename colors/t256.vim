@@ -83,6 +83,16 @@ hi String       ctermfg=70      cterm=none
 hi Comment      ctermfg=240     cterm=none
 hi Todo         ctermfg=101     cterm=none
 
+
+" Linux has darker color palette
+if has("unix")
+	hi Comment      ctermfg=242     cterm=none
+	hi CursorLine                   ctermbg=235     cterm=none
+	hi LineNr       ctermfg=236     ctermbg=16      cterm=none
+	hi SpecialKey   ctermfg=236     ctermbg=16      cterm=none
+	hi StatusLineNC ctermfg=240     ctermbg=233     cterm=none
+end
+
 runtime colors/_common_syntax.vim
 
 " vim:set ts=4 sw=4 noet:

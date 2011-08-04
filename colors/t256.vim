@@ -85,12 +85,15 @@ hi Todo         ctermfg=101     cterm=none
 
 
 " Linux has darker color palette
-if has("unix")
+if system("uname") == "Darwin\n"
+
+elseif has("unix")
 	hi Comment      ctermfg=242     cterm=none
 	hi CursorLine                   ctermbg=235     cterm=none
 	hi LineNr       ctermfg=236     ctermbg=16      cterm=none
 	hi SpecialKey   ctermfg=236     ctermbg=16      cterm=none
 	hi StatusLineNC ctermfg=240     ctermbg=233     cterm=none
+else
 end
 
 runtime colors/_common_syntax.vim

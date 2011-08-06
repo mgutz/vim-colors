@@ -2,5 +2,6 @@
 *.bak
 .DS_Store
 *.swo
-*.swp 
+*.swp
 .*swp
+node_modules

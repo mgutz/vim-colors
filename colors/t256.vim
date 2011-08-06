@@ -1,8 +1,6 @@
-"==============================================================================
-" Copyright (c) 2011 Mario L Gutierrez (https://mgutz.github.com)
-"
-" MIT Licensed
-"==============================================================================
+
+
+" !!! DO NOT MODIFY Auto-generated from ../src/colorschemes/t256.coffee
 
 set background=dark
 
@@ -16,7 +14,7 @@ endif
 let colors_name="t256"
 
 hi Normal           ctermfg=252 ctermbg=16  cterm=none guifg=#d0d0d0 guibg=#000000 gui=none
-hi Cursor           ctermfg=208 ctermbg=255 cterm=none guifg=#ff8700 guibg=#eeeeee gui=none
+hi Cursor           ctermfg=16  ctermbg=255 cterm=none guifg=#000000 guibg=#eeeeee gui=none
 hi Visual           ctermfg=251 ctermbg=239 cterm=none guifg=#c6c6c6 guibg=#4e4e4e gui=none
 hi VisualNOS        ctermfg=251 ctermbg=236 cterm=none guifg=#c6c6c6 guibg=#303030 gui=none
 hi Search           ctermfg=183 ctermbg=241 cterm=none guifg=#dfafff guibg=#606060 gui=none

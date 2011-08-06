@@ -75,7 +75,7 @@ class TerminalUiSchemer
     if colors?
       buffer = ""
       for argsLine in colors
-        buffer += @hi.apply this, argsLine
+        buffer += @hi.apply(this, argsLine)
       buffer
     else
       ""
@@ -85,7 +85,9 @@ class TerminalUiSchemer
   # @returns {String} The colorscheme.
   render: ->
     """
-#{@header if @header?}
+#{@header ? ''}
+
+" !!! DO NOT MODIFY Auto-generated from ../src/colorschemes/#{@name}.coffee
 
 set background=#{@background}
 
@@ -109,7 +111,7 @@ endif
 if system("uname") == "Darwin\\n"
 #{@renderColors @colors.mac}
 
-" Linux has darker color palette
+" gnome-terminal seems to have darker color palette
 elseif has("unix")
 #{@renderColors @colors.linux}
 
@@ -118,7 +120,7 @@ else
 #{@renderColors @colors.win}
 end
 
-#{@footer if @footer?}
+#{@footer ? ''}
 """
 
 module.exports = TerminalUiSchemer

@@ -12,6 +12,9 @@ t256 =
 "
 " MIT Licensed
 "==============================================================================
+
+" To see 256 color index, install:
+"   https://github.com/vim-scripts/xterm-color-table.vim
 """
   footer: "runtime colors/common/_common_syntax.vim"
   background: "dark"
@@ -21,7 +24,7 @@ t256 =
   colors:
     general: [
       ["Normal",       @fg, @bg]
-      ["Cursor",       208, 255]
+      ["Cursor",       16, 255]
       ["Visual",       251, 239]
       ["VisualNOS",    251, 236]
       ["Search",       183, 241]

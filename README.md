@@ -14,6 +14,16 @@ These are a set of colorschemes suited to my style:
 * underwater-mod : darkish blue with bright colors : [screenshot](http://img193.imageshack.us/img193/8104/screenshot20100623at319.png)
 
 
-## Terminal Colors
+## Terminal/GUI Colors
 
 * t256 : 256-colors terminal scheme
+
+
+## To re-generate colorscheme
+
+Regenerating combined terminal/GUI colorchemes requires some dependencies
+
+    cd src
+    npm install underscore underscore.string coffee-script
+    ./generate
+

@@ -101,7 +101,7 @@ hi link NERDTreeUp                  NERDTreeClosable
 
 
 if exists("g:mgutz_tabline")
-    runtime colors/_mgutz_tabline.vim
+    runtime colors/common/_mgutz_tabline.vim
 endif
 
 " vim:set ts=4 sw=4 et:

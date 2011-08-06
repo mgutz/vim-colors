@@ -23,7 +23,7 @@ hi Search       ctermfg=183     ctermbg=241     cterm=none
 hi Folded       ctermfg=103     ctermbg=237     cterm=none
 hi Title        ctermfg=173                     cterm=bold
 hi StatusLine   ctermfg=227     ctermbg=233     cterm=none
-hi VertSplit    ctermfg=233     ctermbg=233     cterm=none
+hi VertSplit    ctermfg=233     ctermbg=233     cterm=bold
 hi StatusLineNC ctermfg=236     ctermbg=233     cterm=none
 hi LineNr       ctermfg=233     ctermbg=16      cterm=none
 hi SpecialKey   ctermfg=241     ctermbg=235     cterm=none
@@ -96,6 +96,6 @@ elseif has("unix")
 else
 end
 
-runtime colors/_common_syntax.vim
+runtime colors/common/_common_syntax.vim
 
-" vim:set ts=4 sw=4 noet:
+" vim: set ts=4 sw=4 noet:

@@ -1,14 +1,17 @@
-
-
 " !!! DO NOT MODIFY Auto-generated from ../src/colorschemes/t256.coffee
+"==============================================================================
+" Copyright (c) 2011 Mario L Gutierrez (https://mgutz.github.com)
+"
+" MIT Licensed
+"==============================================================================
+
+" To see 256 color index, install:
+"   https://github.com/vim-scripts/xterm-color-table.vim
 
 set background=dark
-
-if version > 580
-    hi clear
-    if exists("syntax_on")
-        syntax reset
-    endif
+hi clear
+if exists("syntax_on")
+    syntax reset
 endif
 
 let colors_name="t256"
@@ -34,8 +37,8 @@ hi DiffText         ctermfg=252 ctermbg=53  cterm=none guifg=#d0d0d0 guibg=#5f00
 hi DiffChange       ctermfg=252 ctermbg=237 cterm=none guifg=#d0d0d0 guibg=#3a3a3a gui=none
 hi Keyword          ctermfg=117 ctermbg=16  cterm=none guifg=#87dfff guibg=#000000 gui=none
 hi Statement        ctermfg=117 ctermbg=16  cterm=none guifg=#87dfff guibg=#000000 gui=none
-hi Constant         ctermfg=173 ctermbg=16  cterm=none guifg=#df875f guibg=#000000 gui=none
-hi Number           ctermfg=173 ctermbg=16  cterm=none guifg=#df875f guibg=#000000 gui=none
+hi Constant         ctermfg=175 ctermbg=16  cterm=none guifg=#df87af guibg=#000000 gui=none
+hi Number           ctermfg=175 ctermbg=16  cterm=none guifg=#df87af guibg=#000000 gui=none
 hi PreProc          ctermfg=173 ctermbg=16  cterm=none guifg=#df875f guibg=#000000 gui=none
 hi Function         ctermfg=192 ctermbg=16  cterm=none guifg=#dfff87 guibg=#000000 gui=none
 hi Identifier       ctermfg=69  ctermbg=16  cterm=none guifg=#5f87ff guibg=#000000 gui=none
@@ -44,29 +47,30 @@ hi Special          ctermfg=229 ctermbg=16  cterm=none guifg=#ffffaf guibg=#0000
 hi String           ctermfg=76  ctermbg=16  cterm=none guifg=#5fdf00 guibg=#000000 gui=none
 hi Comment          ctermfg=240 ctermbg=16  cterm=none guifg=#585858 guibg=#000000 gui=none
 hi Todo             ctermfg=101 ctermbg=16  cterm=none guifg=#87875f guibg=#000000 gui=none
+hi TabLine          ctermfg=255 ctermbg=237 cterm=none guifg=#eeeeee guibg=#3a3a3a gui=none
+hi TabLineFill      ctermfg=226 ctermbg=237 cterm=none guifg=#ffff00 guibg=#3a3a3a gui=none
+hi TabLineSel       ctermfg=226 ctermbg=16  cterm=none guifg=#ffff00 guibg=#000000 gui=none
+hi TabNum           ctermfg=173 ctermbg=237 cterm=none guifg=#df875f guibg=#3a3a3a gui=none
+hi TabNumSel        ctermfg=173 ctermbg=16  cterm=none guifg=#df875f guibg=#000000 gui=none
 
-
-" Vim >= 7.0 specific colors
 if version >= 700
-hi CursorLine                   ctermbg=234 cterm=none               guibg=#1c1c1c gui=none
-hi MatchParen       ctermfg=198 ctermbg=234 cterm=bold guifg=#ff0087 guibg=#1c1c1c gui=bold
-hi Pmenu            ctermfg=230 ctermbg=238 cterm=none guifg=#ffffdf guibg=#444444 gui=none
-hi PmenuSel         ctermfg=232 ctermbg=192 cterm=none guifg=#080808 guibg=#dfff87 gui=none
-
+    hi CursorLine                   ctermbg=234 cterm=none               guibg=#1c1c1c gui=none
+    hi MatchParen       ctermfg=198 ctermbg=234 cterm=bold guifg=#ff0087 guibg=#1c1c1c gui=bold
+    hi Pmenu            ctermfg=230 ctermbg=238 cterm=none guifg=#ffffdf guibg=#444444 gui=none
+    hi PmenuSel         ctermfg=232 ctermbg=192 cterm=none guifg=#080808 guibg=#dfff87 gui=none
 endif
 
 " Mac
 if system("uname") == "Darwin\n"
 
 
-" Linux has darker color palette
+" gnome-terminal seems to have darker color palette
 elseif has("unix")
-hi Comment          ctermfg=242 ctermbg=16  cterm=none guifg=#666666 guibg=#000000 gui=none
-hi CursorLine                   ctermbg=235 cterm=none               guibg=#262626 gui=none
-hi LineNr           ctermfg=236 ctermbg=16  cterm=none guifg=#303030 guibg=#000000 gui=none
-hi SpecialKey       ctermfg=236 ctermbg=16  cterm=none guifg=#303030 guibg=#000000 gui=none
-hi StatusLineNC     ctermfg=240 ctermbg=233 cterm=none guifg=#585858 guibg=#121212 gui=none
-
+    hi Comment          ctermfg=242 ctermbg=16  cterm=none guifg=#666666 guibg=#000000 gui=none
+    hi CursorLine                   ctermbg=235 cterm=none               guibg=#262626 gui=none
+    hi LineNr           ctermfg=236 ctermbg=16  cterm=none guifg=#303030 guibg=#000000 gui=none
+    hi SpecialKey       ctermfg=236 ctermbg=16  cterm=none guifg=#303030 guibg=#000000 gui=none
+    hi StatusLineNC     ctermfg=240 ctermbg=233 cterm=none guifg=#585858 guibg=#121212 gui=none
 
 " Windows
 else

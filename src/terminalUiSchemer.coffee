@@ -49,7 +49,6 @@ class TerminalUiSchemer
     format += " cterm=%-4s"
     args.push style
 
-
     if fg == -1
       format += "              "
     else
@@ -71,53 +70,45 @@ class TerminalUiSchemer
   # Renders a color section from scheme.
   #
   # @param {Array} colors An array of Vim highlight arguments.
-  renderColors: (colors) ->
+  renderColors: (colors, indent="") ->
+    buffer = ""
     if colors?
-      buffer = ""
       for argsLine in colors
-        buffer += @hi.apply(this, argsLine)
-      buffer
-    else
-      ""
+        buffer += indent + @hi.apply(this, argsLine)
+    _s.rtrim buffer, "\n"
 
   # Renders the colorscheme.
   #
   # @returns {String} The colorscheme.
   render: ->
-    """
+    """" !!! DO NOT MODIFY Auto-generated from ../src/colorschemes/#{@name}.coffee
 #{@header ? ''}
 
-" !!! DO NOT MODIFY Auto-generated from ../src/colorschemes/#{@name}.coffee
-
 set background=#{@background}
-
-if version > 580
-    hi clear
-    if exists("syntax_on")
-        syntax reset
-    endif
+hi clear
+if exists("syntax_on")
+    syntax reset
 endif
 
 let colors_name="#{@name}"
 
 #{@renderColors @colors.general}
 
-" Vim >= 7.0 specific colors
 if version >= 700
-#{@renderColors @colors.vim700}
+#{@renderColors @colors.vim700, '    '}
 endif
 
 " Mac
 if system("uname") == "Darwin\\n"
-#{@renderColors @colors.mac}
+#{@renderColors @colors.mac, '    '}
 
 " gnome-terminal seems to have darker color palette
 elseif has("unix")
-#{@renderColors @colors.linux}
+#{@renderColors @colors.linux, '    '}
 
 " Windows
 else
-#{@renderColors @colors.win}
+#{@renderColors @colors.win, '    '}
 end
 
 #{@footer ? ''}

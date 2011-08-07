@@ -48,8 +48,8 @@ t256 =
       # Syntax highlighting
       ["Keyword",      117]
       ["Statement",    117]
-      ["Constant",     173]
-      ["Number",       173]
+      ["Constant",     175]
+      ["Number",       175]
       ["PreProc",      173]
       ["Function",     192]
       ["Identifier",    69]
@@ -58,6 +58,12 @@ t256 =
       ["String",        76]
       ["Comment",      240]
       ["Todo",         101]
+
+      ["TabLine",      255, 237]
+      ["TabLineFill",  226, 237]
+      ["TabLineSel",   226, @bg]
+      ["TabNum",       173, 237]
+      ["TabNumSel",    173, @bg]
     ]
 
     vim700: [

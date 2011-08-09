@@ -25,19 +25,19 @@ t256 =
     general: [
       ["Normal",       @fg, @bg]
       ["Cursor",       16, 255]
-      ["Visual",       251, 239]
+      ["Visual",       16, 24]
       ["VisualNOS",    251, 236]
-      ["Search",       183, 241]
+      ["Search",       16, 186]
       ["Folded",       103, 237]
       ["Title" ,       173, @bg, "bold"]
-      ["StatusLine",   227, 233]
-      ["VertSplit" ,   233, 233]
-      ["StatusLineNC", 237, 233]
-      ["LineNr" ,      233,  16]
+      ["StatusLine",   227, 234]
+      ["VertSplit" ,   234, 234]
+      ["StatusLineNC", 237, 234]
+      ["LineNr" ,      234,  16]
       ["SpecialKey",   241, 235]
       ["WarningMsg",   203     ]
       ["ErrorMsg" ,    196, 236]
-      ["SpecialKey",   233,  16]
+      ["SpecialKey",   234,  16]
 
       # Diff highlighting
       ["DiffAdd",      @fg,  17]
@@ -67,7 +67,7 @@ t256 =
     ]
 
     vim700: [
-      ["CursorLine",   -1, 234]
+      ["CursorLine",   -1,  233]
       ["MatchParen",   198, 234, "bold"]
       ["Pmenu",        230, 238]
       ["PmenuSel",     232, 192]
@@ -81,7 +81,7 @@ t256 =
       ["CursorLine",    -1, 235]
       ["LineNr",       236,  16]
       ["SpecialKey",   236,  16]
-      ["StatusLineNC", 240, 233]
+      ["StatusLineNC", 240, 234]
     ]
 
     win: [

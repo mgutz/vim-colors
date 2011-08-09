@@ -37,4 +37,3 @@ To customize,
     cd src
     npm install underscore underscore.string coffee-script
     ./generate
-

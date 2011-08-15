@@ -41,7 +41,7 @@ hi Constant         ctermfg=175 ctermbg=16  cterm=none guifg=#df87af guibg=#0000
 hi Number           ctermfg=175 ctermbg=16  cterm=none guifg=#df87af guibg=#000000 gui=none
 hi PreProc          ctermfg=173 ctermbg=16  cterm=none guifg=#df875f guibg=#000000 gui=none
 hi Function         ctermfg=192 ctermbg=16  cterm=none guifg=#dfff87 guibg=#000000 gui=none
-hi Identifier       ctermfg=69  ctermbg=16  cterm=none guifg=#5f87ff guibg=#000000 gui=none
+hi Identifier       ctermfg=105 ctermbg=16  cterm=none guifg=#8787ff guibg=#000000 gui=none
 hi Type             ctermfg=69  ctermbg=16  cterm=none guifg=#5f87ff guibg=#000000 gui=none
 hi Special          ctermfg=229 ctermbg=16  cterm=none guifg=#ffffaf guibg=#000000 gui=none
 hi String           ctermfg=76  ctermbg=16  cterm=none guifg=#5fdf00 guibg=#000000 gui=none

@@ -52,7 +52,7 @@ t256 =
       ["Number",       175]
       ["PreProc",      173]
       ["Function",     192]
-      ["Identifier",    69]
+      ["Identifier",   105]
       ["Type",          69]
       ["Special",      229]
       ["String",        76]

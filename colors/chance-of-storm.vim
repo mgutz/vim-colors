@@ -1,6 +1,6 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Author: Mario Gutierrez (mario@mgutz.com)
-" Last Change: Dececember 6, 2010 
+" Last Change: Dececember 6, 2010
 " Version: 0.1.2
 "
 " cursorColumn fix from Vincent Bethoux
@@ -70,14 +70,14 @@ hi Underlined 	        guifg=#8ac6f2   gui=underline
 
 """"""""""" ERB
 
-hi link erubyDelimiter      PreProc 
+hi link erubyDelimiter      PreProc
 
 
 """"""""""" HAML
 
 hi link hamlAttributes      htmlArg
-hi link hamlTag             htmlTag 
-hi link hamlTagName         htmlTagName 
+hi link hamlTag             htmlTag
+hi link hamlTagName         htmlTagName
 hi link hamlIdChar          hamlId
 hi link hamlClassChar       hamlClass
 
@@ -92,14 +92,14 @@ hi link helpExample         Statement
 
 hi link htmlTag             Statement
 hi link htmlEndTag          Statement
-hi link htmlTagName         Statement 
+hi link htmlTagName         Statement
 
 
 """""""""" JavaScript
 
 hi link javaScriptFunction  Statement
 hi link javaScriptFuncName  Function
-hi link javaScriptLabel     PreProc 
+hi link javaScriptLabel     PreProc
 
 
 """""""""" MAKE
@@ -110,42 +110,46 @@ hi link makeCommands        Statement
 """""""""" MARKDOWN (tpope's vim-markdown)
 
 hi link markdownCodeBlock           Statement
-hi link markdownCode                Statement 
+hi link markdownCode                Statement
 hi link markdownCodeDelimiter       Statement
 hi link markdownHeadingDelimiter    Title
 hi      markdownLinkText 	    guifg=#489fd7   gui=underline
 hi      markdownUrl                 guifg=#69839a   guibg=bg        gui=none
-hi link markdownLinkTextDelimiter   markdownUrl 
-hi link markdownLinkDelimiter       markdownUrl 
+hi link markdownLinkTextDelimiter   markdownUrl
+hi link markdownLinkDelimiter       markdownUrl
 
 
 """"""""""" NERDTree
 
 hi link NERDTreePart            NonText
-hi link NERDTreePartFile        NERDTreePart 
+hi link NERDTreePartFile        NERDTreePart
 hi link NERDTreeDirSlash        NERDTreePart
-hi link NERDTreeDir             Statement 
+hi link NERDTreeDir             Statement
 hi link NERDTreeClosable        PreProc
 hi link NERDTreeOpenable        NERDTreeClosable
-hi link NERDTreeUp              NERDTreeClosable 
+hi link NERDTreeUp              NERDTreeClosable
 hi      NERDTreeFlag            guifg=#3e71a1 guibg=bg gui=none
 hi link NERDTreeHelp            Comment
 hi link NERDTreeLink            Type
 hi link NERDTreeExecFile        Type
 
 
-"""""""""" PHP 
+"""""""""" PHP
 
 hi link phpVarSelector      Identifier
+
+
+""""""""""  QuickFind
+
+hi link qfLineNr            PreProc
 
 
 """""""""" Ruby
 
 hi      rubyAccess                  guifg=#ef7760 guibg=bg gui=italic
-hi      rubyInterpolation           guifg=#c2f0a2 guibg=bg 
+hi      rubyInterpolation           guifg=#c2f0a2 guibg=bg
 hi link rubyInterpolationDelimiter  rubyInterpolation
 hi link rubyStringDelimiter         String
-
 
 """"""""""" XML
 

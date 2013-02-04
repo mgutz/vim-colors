@@ -1,6 +1,6 @@
 " Vim color file
 " Maintainer: Mario Gutierrez <mario@mguz.com>
-" Original Maintainer: Andrés Suárez <ansuga@gmail.com> 
+" Original Maintainer: Andrés Suárez <ansuga@gmail.com>
 " Original Theme: [fruidle](http://www.vim.org/scripts/script.php?script_id=2494)
 " Last Change: 2011/01/11
 "     version: 1.3
@@ -67,7 +67,7 @@ hi Visual       gui=NONE guifg=#484848 guibg=#e0e0e0
 hi Comment      gui=NONE guifg=#999a9c guibg=NONE
 "hi Constant     gui=NONE guifg=#0070e6 guibg=NONE
 hi Constant     gui=NONE guifg=#aa0094 guibg=NONE
-hi link Number Constant 
+hi link Number Constant
 "hi Identifier   gui=NONE guifg=#0070e6 guibg=NONE
 hi Identifier   gui=NONE guifg=fg      guibg=NONE
 hi Error        gui=NONE guifg=#ffffff guibg=#dd0000
@@ -78,9 +78,9 @@ hi Statement    gui=NONE guifg=#ff7700 guibg=NONE
 hi Todo         gui=UNDERLINE guifg=#ff0070 guibg=#ffe0f4
 hi Type         gui=NONE guifg=#0070e6 guibg=NONE
 hi Underlined   gui=UNDERLINE guifg=fg guibg=NONE
-hi link Include PreProc 
+hi link Include PreProc
 hi Function     gui=NONE guifg=#0076AD guibg=NONE
-hi String       gui=NONE guifg=#00aa00 guibg=bg 
+hi String       gui=NONE guifg=#00aa00 guibg=bg
 
 
 """""""" Coffee
@@ -93,24 +93,24 @@ hi link coffeeInterpolation     Special
 
 """""""" ERB
 
-hi link erubyDelimiter          PreProc 
+hi link erubyDelimiter          PreProc
 
 
 """""""" HAML
 
 hi link hamlAttributes          htmlArg
-hi link hamlTag                 htmlTag 
-hi link hamlTagName             htmlTagName 
+hi link hamlTag                 htmlTag
+hi link hamlTagName             htmlTagName
 hi link hamlIdChar              hamlId
 hi link hamlClassChar           hamlClass
-hi link hamlInterpolation       Special 
+hi link hamlInterpolation       Special
 
 
 """""""" HTML
 
-hi link htmlTag                 Type 
-hi link htmlEndTag              Type 
-hi link htmlTagName             Type 
+hi link htmlTag                 Type
+hi link htmlEndTag              Type
+hi link htmlTagName             Type
 hi link htmlSpecialChar         Constant
 
 
@@ -118,25 +118,25 @@ hi link htmlSpecialChar         Constant
 
 hi link javaScriptFunction      Function
 hi link javaScriptFuncName      Function
-hi link javaScriptDocSeeTag     Underlined 
-hi link javaScriptLabel         Normal 
-hi link javaScriptNull          Number 
+hi link javaScriptDocSeeTag     Underlined
+hi link javaScriptLabel         Normal
+hi link javaScriptNull          Number
 
 
-"""""""" Makefile 
+"""""""" Makefile
 
-hi link makeCommands            Normal 
-hi link makeTarget              Constant 
+hi link makeCommands            Normal
+hi link makeTarget              Constant
 
 
 """""""" Markdown - tpope's
 
 hi link markdownCodeBlock           Statement
-hi link markdownCode                Statement 
+hi link markdownCode                Statement
 hi link markdownCodeDelimiter       Statement
 hi link markdownHeadingDelimiter    Title
-hi link markdownLinkText 	    Underlined 
-hi link markdownLinkTextDelimiter   Comment 
+hi link markdownLinkText 	    Underlined
+hi link markdownLinkTextDelimiter   Comment
 hi link markdownLinkDelimiter       Comment
 hi link markdownListMarker          Constant
 hi link markdownUrl                 Comment
@@ -145,24 +145,29 @@ hi link markdownUrl                 Comment
 """""""" NERDTree
 
 hi link NERDTreeClosable            PreProc
-"hi link NERDTreeDir                 Statement 
-hi link NERDTreeDirSlash            NonText 
+"hi link NERDTreeDir                 Statement
+hi link NERDTreeDirSlash            NonText
 hi link NERDTreeExecFile            Type
 hi      NERDTreeFlag                guifg=#3e71a1 guibg=bg gui=none
 hi link NERDTreeHelp                Comment
 hi link NERDTreeLink                Type
-hi link NERDTreePart                NonText 
-hi link NERDTreePartFile            NonText 
+hi link NERDTreePart                NonText
+hi link NERDTreePartFile            NonText
 hi link NERDTreeOpenable            NERDTreeClosable
-hi link NERDTreeUp                  NERDTreeClosable 
+hi link NERDTreeUp                  NERDTreeClosable
+
+
+""""""""""  QuickFind
+
+hi link qfLineNr            PreProc
 
 
 """""""" Ruby
 
 hi rubyAccess                       guifg=#ef7760 guibg=bg gui=italic
 hi link rubyBlockParameter          Normal
-hi link rubyInterpolation           Special 
-hi link rubyInterpolationDelimiter  Special 
+hi link rubyInterpolation           Special
+hi link rubyInterpolationDelimiter  Special
 hi link rubyStringDelimiter         String
 
 

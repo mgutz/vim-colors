@@ -68,6 +68,11 @@ hi link NERDTreeOpenable            NERDTreeClosable
 hi link NERDTreeUp                  NERDTreeClosable
 
 
+""""""""""  QuickFind
+
+hi link qfLineNr            PreProc
+
+
 """""""" Ruby
 hi rubyAccess                       guifg=#ef7760 guibg=bg gui=italic
 hi link rubyBlockParameter          Normal

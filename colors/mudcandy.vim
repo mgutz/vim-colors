@@ -16,12 +16,13 @@ let colors_name = "zenzen"
 
 """""""""" General
 
-hi Normal               guifg=#d9cfce   guibg=#1f1d1c gui=none
+hi Normal               guifg=#d9cfce   guibg=#211f1f gui=none
 
 " Vim >= 7.0
 if version >= 700
-  hi CursorColumn       guibg=#2a2e31
-  hi CursorLine         guibg=#2a2e31
+  hi CursorColumn       guibg=#2b2927
+  hi CursorLine         guibg=#2b2927
+  hi CursorLineNr       guifg=#59544f   guibg=#2b2927 gui=bold
   hi MatchParen         guifg=magenta   guibg=black   gui=bold,italic
   hi Pmenu              guifg=#dfeff6   guibg=#1E415E
   hi PmenuSel           guifg=#dfeff6   guibg=#2D7889
@@ -38,7 +39,7 @@ hi LineNr               guifg=#302d2b   guibg=bg      gui=none
 hi NonText              guifg=#302d2b   guibg=bg      gui=none
 hi Question             guifg=#6dbb6d   guibg=bg      gui=none
 hi StatusLine           guifg=#e0e055   guibg=#171615 gui=none
-hi StatusLineNC         guifg=#524d49   guibg=#171615 gui=none
+hi StatusLineNC         guifg=#59544f   guibg=#171615 gui=none
 hi TabLine              guifg=#555555   guibg=#dddddd gui=none
 hi TabLineFill          guifg=fg        guibg=#dddddd gui=none
 hi TabLineSel           guifg=#101010   guibg=#b0b0b0 gui=none
@@ -51,7 +52,7 @@ hi WarningMsg           guifg=#bb6d6d   guibg=bg      gui=none
 
 """""""""" Syntax highlighting
 
-hi Comment              guifg=#524d49   guibg=bg      gui=italic
+hi Comment              guifg=#59544f   guibg=bg      gui=none
 hi Constant             guifg=#96defa   gui=none
 hi Function             guifg=#9e7cd7   gui=none
 hi Identifier           guifg=#2ed6d7   gui=none
@@ -113,7 +114,7 @@ hi link markdownCode                Statement
 hi link markdownCodeDelimiter       Statement
 hi link markdownHeadingDelimiter    Title
 hi      markdownLinkText            guifg=#489fd7   gui=underline
-hi      markdownUrl                 guifg=#524d49   guibg=bg        gui=none
+hi      markdownUrl                 guifg=#59544f   guibg=bg        gui=none
 hi link markdownLinkTextDelimiter   markdownUrl
 hi link markdownLinkDelimiter       markdownUrl
 

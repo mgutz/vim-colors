@@ -16,13 +16,13 @@ let colors_name = "zenzen"
 
 """""""""" General
 
-hi Normal               guifg=#d9cfce   guibg=#211f1f gui=none
+hi Normal               guifg=#bfb3aa   guibg=#211f1f gui=none
 
 " Vim >= 7.0
 if version >= 700
   hi CursorColumn       guibg=#2b2927
   hi CursorLine         guibg=#2b2927
-  hi CursorLineNr       guifg=#59544f   guibg=#2b2927 gui=bold
+  hi CursorLineNr       guifg=#4c4744   guibg=#2b2927 gui=none
   hi MatchParen         guifg=magenta   guibg=black   gui=bold,italic
   hi Pmenu              guifg=#dfeff6   guibg=#1E415E
   hi PmenuSel           guifg=#dfeff6   guibg=#2D7889
@@ -38,12 +38,12 @@ hi LineNr               guifg=#302d2b   guibg=bg      gui=none
 " e.g. tildes at the end of file
 hi NonText              guifg=#302d2b   guibg=bg      gui=none
 hi Question             guifg=#6dbb6d   guibg=bg      gui=none
-hi StatusLine           guifg=#e0e055   guibg=#171615 gui=none
-hi StatusLineNC         guifg=#59544f   guibg=#171615 gui=none
+hi StatusLine           guifg=#aad8bb   guibg=#171615 gui=none
+hi StatusLineNC         guifg=#665f5b   guibg=#171615 gui=none
 hi TabLine              guifg=#555555   guibg=#dddddd gui=none
 hi TabLineFill          guifg=fg        guibg=#dddddd gui=none
 hi TabLineSel           guifg=#101010   guibg=#b0b0b0 gui=none
-hi Title                guifg=#ef7760   guibg=bg      gui=none
+hi Title                guifg=#bf5f4d   guibg=bg      gui=none
 hi VertSplit            guifg=#171615   guibg=#171615 gui=bold
  " Selected text color
 hi Visual               guifg=#dfeff6   guibg=#24557A gui=none
@@ -52,20 +52,20 @@ hi WarningMsg           guifg=#bb6d6d   guibg=bg      gui=none
 
 """""""""" Syntax highlighting
 
-hi Comment              guifg=#59544f   guibg=bg      gui=none
+hi Comment              guifg=#665f5b   guibg=bg      gui=none
 hi Constant             guifg=#96defa   gui=none
-hi Function             guifg=#9e7cd7   gui=none
-hi Identifier           guifg=#2ed6d7   gui=none
+hi Function             guifg=#8d6ebf   gui=none
+hi Identifier           guifg=#29bebf   gui=none
 hi Ignore               guifg=bg        guibg=bg      gui=none
-hi Keyword              guifg=#8ac6f2   gui=none
-hi Number               guifg=#e1d4a8   gui=none
-hi PreProc              guifg=#f99d71   gui=none
-hi Special              guifg=#ffcde4   gui=none
-hi Statement            guifg=#8ac6f2   gui=none
-hi String               guifg=#89e14b   gui=none
+hi Keyword              guifg=#6d9cbf   gui=none
+hi Number               guifg=#bfbf8f   gui=none
+hi PreProc              guifg=#bf7957   gui=none
+hi Special              guifg=#bf9aab   gui=none
+hi Statement            guifg=#6d9cbf   gui=none
+hi String               guifg=#6db23c   gui=none
 hi Todo                 guifg=#ADED80   guibg=bg      gui=bold
-hi Type                 guifg=#489fd7   gui=none
-hi Underlined           guifg=#8ac6f2   gui=underline
+hi Type                 guifg=#408dbf   gui=none
+hi Underlined           guifg=#6d9cbf   gui=underline
 
 
 """"""""""" ERB
@@ -113,8 +113,8 @@ hi link markdownCodeBlock           Statement
 hi link markdownCode                Statement
 hi link markdownCodeDelimiter       Statement
 hi link markdownHeadingDelimiter    Title
-hi      markdownLinkText            guifg=#489fd7   gui=underline
-hi      markdownUrl                 guifg=#59544f   guibg=bg        gui=none
+hi      markdownLinkText            guifg=#408dbf   gui=underline
+hi      markdownUrl                 guifg=#665f5b   guibg=bg        gui=none
 hi link markdownLinkTextDelimiter   markdownUrl
 hi link markdownLinkDelimiter       markdownUrl
 
@@ -146,7 +146,7 @@ hi link qfLineNr            PreProc
 
 """""""""" Ruby
 
-hi      rubyAccess                  guifg=#ef7760 guibg=bg gui=italic
+hi      rubyAccess                  guifg=#bf5f4d guibg=bg gui=italic
 hi      rubyInterpolation           guifg=#c2f0a2 guibg=bg
 hi link rubyInterpolationDelimiter  rubyInterpolation
 hi link rubyStringDelimiter         String

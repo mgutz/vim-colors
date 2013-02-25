@@ -1,29 +1,29 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Author: Mario Gutierrez (mario@mgutz.com)
-" Last Change: Dececember 6, 2010
-" Version: 0.1.2
+" Last Change: Feb 20, 2013
+" Version: 0.1.1
 "
-" cursorColumn fix from Vincent Bethoux
+" Most colors have HSV = N*20, 33, 66
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-set background=dark
+" set background=dark
 hi clear
 if exists("syntax_on")
   syntax reset
 endif
-let colors_name = "zenzen"
+let colors_name = "mudcandy"
 
 
 """""""""" General
 
-hi Normal               guifg=#bfb3aa   guibg=#211f1f gui=none
+hi Normal               guifg=#a89e96   guibg=#272424 gui=none
 
 " Vim >= 7.0
 if version >= 700
   hi CursorColumn       guibg=#2b2927
   hi CursorLine         guibg=#2b2927
   hi CursorLineNr       guifg=#4c4744   guibg=#2b2927 gui=none
-  hi MatchParen         guifg=magenta   guibg=black   gui=bold,italic
+  hi MatchParen         guifg=bg        guibg=magenta gui=bold
   hi Pmenu              guifg=#dfeff6   guibg=#1E415E
   hi PmenuSel           guifg=#dfeff6   guibg=#2D7889
 
@@ -34,9 +34,9 @@ endif
 hi Cursor               guifg=bg        guibg=#8fdef9 gui=none
 hi Folded               guifg=#68CEE8   guibg=#1A3951 gui=none
 hi FoldColumn           guifg=#1E415E   guibg=#1A3951 gui=none
-hi LineNr               guifg=#302d2b   guibg=bg      gui=none
+hi LineNr               guifg=#383434   guibg=bg      gui=none
 " e.g. tildes at the end of file
-hi NonText              guifg=#302d2b   guibg=bg      gui=none
+hi NonText              guifg=#383434   guibg=bg      gui=none
 hi Question             guifg=#6dbb6d   guibg=bg      gui=none
 hi StatusLine           guifg=#aad8bb   guibg=#171615 gui=none
 hi StatusLineNC         guifg=#665f5b   guibg=#171615 gui=none
@@ -53,19 +53,19 @@ hi WarningMsg           guifg=#bb6d6d   guibg=bg      gui=none
 """""""""" Syntax highlighting
 
 hi Comment              guifg=#665f5b   guibg=bg      gui=none
-hi Constant             guifg=#96defa   gui=none
-hi Function             guifg=#8d6ebf   gui=none
-hi Identifier           guifg=#29bebf   gui=none
+hi Constant             guifg=#71a896   gui=none
+hi Function             guifg=#a871a8   gui=none
+hi Identifier           guifg=#a87171   gui=none
 hi Ignore               guifg=bg        guibg=bg      gui=none
-hi Keyword              guifg=#6d9cbf   gui=none
-hi Number               guifg=#bfbf8f   gui=none
-hi PreProc              guifg=#bf7957   gui=none
-hi Special              guifg=#bf9aab   gui=none
-hi Statement            guifg=#6d9cbf   gui=none
-hi String               guifg=#6db23c   gui=none
+hi Keyword              guifg=#7196a8   gui=none
+hi Number               guifg=#71a896   gui=none
+hi PreProc              guifg=#a87183   gui=none
+hi Special              guifg=#66605b   gui=none
+hi Statement            guifg=#7196a8   gui=none
+hi String               guifg=#71a871   gui=none
 hi Todo                 guifg=#ADED80   guibg=bg      gui=bold
-hi Type                 guifg=#408dbf   gui=none
-hi Underlined           guifg=#6d9cbf   gui=underline
+hi Type                 guifg=#7183a8   gui=none
+hi Underlined           guifg=#7196a8   gui=underline
 
 
 """"""""""" ERB
@@ -100,6 +100,8 @@ hi link htmlTagName         Statement
 hi link javaScriptFunction  Statement
 hi link javaScriptFuncName  Function
 hi link javaScriptLabel     PreProc
+hi link javaScriptBraces    Special
+hi link javaScriptParens    Special
 
 
 """""""""" MAKE
@@ -113,7 +115,7 @@ hi link markdownCodeBlock           Statement
 hi link markdownCode                Statement
 hi link markdownCodeDelimiter       Statement
 hi link markdownHeadingDelimiter    Title
-hi      markdownLinkText            guifg=#408dbf   gui=underline
+hi      markdownLinkText            guifg=#7183a8   gui=underline
 hi      markdownUrl                 guifg=#665f5b   guibg=bg        gui=none
 hi link markdownLinkTextDelimiter   markdownUrl
 hi link markdownLinkDelimiter       markdownUrl
@@ -136,7 +138,7 @@ hi link NERDTreeExecFile        Type
 
 """""""""" PHP
 
-hi link phpVarSelector      Identifier
+hi link phpVarSelector      Indentifier
 
 
 """"""""""  QuickFind

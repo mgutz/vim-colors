@@ -1,5 +1,5 @@
 " Vim color file
-" Maintainer: Mario Gutierrez <mario@mguz.com>
+" Maintainer: Mario Gutierrez <mario@mgutz.com>
 " Original Maintainer: Andrés Suárez <ansuga@gmail.com>
 " Original Theme: [fruidle](http://www.vim.org/scripts/script.php?script_id=2494)
 " Last Change: 2011/01/11
@@ -11,7 +11,21 @@ if exists("syntax_on")
    syntax reset
 endif
 
-let colors_name = "fruidle"
+let colors_name = "idle"
+
+" Vim >= 7.0
+if version >= 700
+  " hi CursorColumn       guibg=#2a2e31
+  " hi CursorLine         guibg=#2a2e31
+  hi CursorLineNr       guifg=#999a9c   guibg=bg      gui=none
+  " hi MatchParen         guifg=magenta   guibg=black   gui=bold,italic
+  " hi Pmenu              guifg=#dfeff6   guibg=#1E415E
+  " hi PmenuSel           guifg=#dfeff6   guibg=#2D7889
+
+  " hi IncSearch          guifg=bg        guibg=#AF81F4 gui=bold
+  " hi Search             guifg=bg        guibg=#AF81F4 gui=none
+endif
+
 
 " Normal
 hi Normal       gui=NONE guifg=#404040 guibg=#fafcfe

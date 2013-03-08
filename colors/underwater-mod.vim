@@ -17,6 +17,7 @@ let colors_name="underwater-mod"
 
 if version >= 700
     hi CursorLine       guibg=#18374F
+    hi CursorLineNr     guifg=#4e6f91   guibg=bg
     hi CursorColumn     guibg=#18374F
     hi MatchParen       guifg=magenta   guibg=bg        gui=bold
     hi Pmenu            guifg=#dfeff6   guibg=#1E415E
@@ -56,7 +57,7 @@ hi WarningMsg           guifg=#C62626   guibg=bg
 
 """""""" Syntax highlighting
 
-hi Comment              guifg=#4e6f91   guibg=bg        gui=italic
+hi Comment              guifg=#4e6f91   guibg=bg        gui=none
 hi Constant             guifg=#ffc287   guibg=bg        gui=none
 hi Function             guifg=#8191F4   guibg=bg        gui=none
 hi Identifier           guifg=#889ce8   guibg=bg        gui=none

@@ -1,7 +1,7 @@
 " Maintainer: Mario Gutierrez (mario@mgutz.com)
 " Original Theme: Dmitry Kichenko (dmitrykichenko@gmail.com)
-" Last Change: Jul 2, 2011
-" Version: 0.5
+" Last Change: Mar 10, 2013
+" Version: 0.5.2
 "
 " To use custom tabline, add this line to .gvimrc before using colorscheme:
 "   let g:mgutz_tabline=1
@@ -16,7 +16,7 @@ endif
 let colors_name="underwater-mod"
 
 if version >= 700
-    hi CursorLine       guibg=#18374F
+    hi CursorLine       guibg=#172e47
     hi CursorLineNr     guifg=#4e6f91   guibg=bg
     hi CursorColumn     guibg=#18374F
     hi MatchParen       guifg=magenta   guibg=bg        gui=bold
@@ -29,7 +29,7 @@ endif
 
 """""""" General colors
 
-hi Cursor               guifg=black     guibg=#55A096   gui=none
+hi Cursor               guifg=black     guibg=#00c3c3   gui=none
 hi DiffAdd              guifg=fg        guibg=#6195ea   gui=none
 hi DiffChange           guifg=fg        guibg=#c361ea   gui=none
 hi DiffDelete           guifg=#1b9bca   guibg=#61c5ea   gui=none
@@ -37,7 +37,7 @@ hi DiffText             guifg=fg        guibg=#971bc9   gui=none
 hi Folded               guifg=#4e918d   guibg=bg        gui=bold
 hi FoldColumn           guifg=#ef7760   guibg=bg        gui=none
 hi LineNr               guifg=#1c3249   guibg=bg        gui=none
-hi Normal               guifg=#e3f3fa   guibg=#102235   gui=none
+hi Normal               guifg=#d3e0e6   guibg=#102235   gui=none
 hi NonText              guifg=#1c3249   guibg=bg        gui=none
 hi StatusLine           guifg=#ffec99   guibg=#0a1721   gui=none
 hi StatusLineNC         guifg=#4e6f91   guibg=#0a1721   gui=none

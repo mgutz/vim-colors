@@ -77,3 +77,10 @@ runtime colors/common/_common_syntax.vim
 
 hi NERDTreeFlag         guifg=#3e71a1 guibg=bg gui=none
 hi rubyAccess           guifg=#ef7760 guibg=bg gui=italic
+
+" SyntasticErrorSign - For syntax errors, links to 'error' by default
+hi SyntasticErrorSign   guifg=#cc8585   guibg=bg
+hi SyntasticWarningSign guifg=#ccbe85   guibg=bg
+" SyntasticStyleErrorSign - For style errors, links to 'SyntasticErrorSign'
+" SyntasticStyleWarningSign - For style warnings, links to SyntasticWarningSign' by default
+

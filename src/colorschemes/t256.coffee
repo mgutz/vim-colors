@@ -34,7 +34,7 @@ t256 =
       ["VertSplit" ,   234, 234]
       ["StatusLineNC", 237, 234]
       ["LineNr" ,      234,  16]
-      ["SpecialKey",   241, 235]
+      ["SpecialKey",   234,  16]
       ["WarningMsg",   203     ]
       ["ErrorMsg" ,    196, 236]
       ["SpecialKey",   234,  16]

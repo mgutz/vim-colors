@@ -62,6 +62,7 @@ hi Keyword              guifg=#8ac6f2   gui=none
 hi Number               guifg=#e1d4a8   gui=none
 hi PreProc              guifg=#f99d71   gui=none
 hi Special              guifg=#ffcde4   gui=none
+hi SpecialKey           guifg=#2e363d   guibg=bg      gui=none
 hi Statement            guifg=#8ac6f2   gui=none
 hi String               guifg=#89e14b   gui=none
 hi Todo                 guifg=#ADED80   guibg=bg      gui=bold

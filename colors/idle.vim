@@ -72,7 +72,7 @@ hi FoldColumn   gui=NONE guifg=#40a098 guibg=#f0f0f0
 hi Directory    gui=NONE guifg=#0070b8 guibg=NONE
 hi LineNr       gui=NONE guifg=#dddddd guibg=NONE
 hi NonText      gui=NONE guifg=#dddddd guibg=BG
-hi SpecialKey   gui=NONE guifg=#4040ff guibg=NONE
+hi SpecialKey   gui=NONE guifg=#dddddd guibg=NONE
 hi Title        gui=NONE guifg=#0050a0 guibg=#c0e8ff
 hi Visual       gui=NONE guifg=#484848 guibg=#e0e0e0
 " hi VisualNOS    gui=NONE guifg=#484848 guibg=#e0e0e0

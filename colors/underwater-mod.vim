@@ -66,6 +66,7 @@ hi link Number          Constant
 hi PreProc              guifg=#ef7760   guibg=bg        gui=none
 hi Keyword              guifg=#8ac6f2   guibg=bg        gui=none
 hi Special              guifg=#b9e19d   guibg=bg        gui=none
+hi SpecialKey           guifg=#1c3249   guibg=bg        gui=none
 hi Statement            guifg=#68CEE8   guibg=bg        gui=none
 hi String               guifg=#89e14b   guibg=bg        gui=none
 hi Todo                 guifg=#ADED80   guibg=bg        gui=bold

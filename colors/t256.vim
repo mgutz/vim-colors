@@ -27,7 +27,7 @@ hi StatusLine       ctermfg=227 ctermbg=234 cterm=none guifg=#ffff5f guibg=#1c1c
 hi VertSplit        ctermfg=234 ctermbg=234 cterm=none guifg=#1c1c1c guibg=#1c1c1c gui=none
 hi StatusLineNC     ctermfg=237 ctermbg=234 cterm=none guifg=#3a3a3a guibg=#1c1c1c gui=none
 hi LineNr           ctermfg=234 ctermbg=16  cterm=none guifg=#1c1c1c guibg=#000000 gui=none
-hi SpecialKey       ctermfg=241 ctermbg=235 cterm=none guifg=#606060 guibg=#262626 gui=none
+hi SpecialKey       ctermfg=234 ctermbg=16  cterm=none guifg=#1c1c1c guibg=#000000 gui=none
 hi WarningMsg       ctermfg=203 ctermbg=16  cterm=none guifg=#ff5f5f guibg=#000000 gui=none
 hi ErrorMsg         ctermfg=196 ctermbg=236 cterm=none guifg=#ff0000 guibg=#303030 gui=none
 hi SpecialKey       ctermfg=234 ctermbg=16  cterm=none guifg=#1c1c1c guibg=#000000 gui=none

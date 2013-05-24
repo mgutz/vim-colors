@@ -78,7 +78,7 @@ hi Visual       gui=NONE guifg=#484848 guibg=#e0e0e0
 " hi VisualNOS    gui=NONE guifg=#484848 guibg=#e0e0e0
 
 " Syntax group
-hi Comment      gui=NONE guifg=#999a9c guibg=NONE
+hi Comment      gui=NONE guifg=#aaaaaa guibg=NONE
 "hi Constant     gui=NONE guifg=#0070e6 guibg=NONE
 hi Constant     gui=NONE guifg=#aa0094 guibg=NONE
 hi link Number Constant
@@ -103,6 +103,12 @@ hi link coffeeAssignmentChar    Normal
 hi link coffeeAssignmentMod     Normal
 hi link coffeeGlobal            Number
 hi link coffeeInterpolation     Special
+hi link coffeeDotAccess         Normal
+
+hi coffeeExtendedOp             guifg=#848280
+hi coffeeParen                  guifg=#848280
+hi coffeeSpecialOp              guifg=#848280
+hi link coffeeObjAssign         Type
 
 
 """""""" ERB

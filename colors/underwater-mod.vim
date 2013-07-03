@@ -85,3 +85,6 @@ hi SyntasticWarningSign guifg=#ccbe85   guibg=bg
 " SyntasticStyleErrorSign - For style errors, links to 'SyntasticErrorSign'
 " SyntasticStyleWarningSign - For style warnings, links to SyntasticWarningSign' by default
 
+hi coffeeBracket guifg=#87a2be guibg=bg
+hi coffeeCurly guifg=#87a2be guibg=bg
+hi coffeeParen guifg=#87a2be guibg=bg

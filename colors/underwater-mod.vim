@@ -76,6 +76,8 @@ hi Underlined           guifg=#8ac6f2   guibg=bg        gui=underline
 
 runtime colors/common/_common_syntax.vim
 
+hi link coffeeSpecialIdent   preproc
+
 hi NERDTreeFlag         guifg=#3e71a1 guibg=bg gui=none
 hi rubyAccess           guifg=#ef7760 guibg=bg gui=italic
 

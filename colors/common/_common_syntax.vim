@@ -2,7 +2,7 @@ hi SignColumn                   ctermbg=none guibg=bg
 
 """""""" Coffee
 hi link coffeeInterpolation     Special
-
+hi link coffeeSpecialIdent      preproc
 
 """""""" ERB
 hi link erubyDelimiter          PreProc

@@ -37,7 +37,9 @@ hi DiffText             guifg=fg        guibg=#971bc9   gui=none
 hi Folded               guifg=#4e918d   guibg=bg        gui=bold
 hi FoldColumn           guifg=#ef7760   guibg=bg        gui=none
 hi LineNr               guifg=#1c3249   guibg=bg        gui=none
-hi Normal               guifg=#d3e0e6   guibg=#102235   gui=none
+"hi Normal               guifg=#d3e0e6   guibg=#102235   gui=none
+hi Normal               guifg=#b8c8d9   guibg=#102235   gui=none
+
 hi NonText              guifg=#1c3249   guibg=bg        gui=none
 hi StatusLine           guifg=#ffec99   guibg=#0a1721   gui=none
 hi StatusLineNC         guifg=#4e6f91   guibg=#0a1721   gui=none

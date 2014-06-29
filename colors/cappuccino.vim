@@ -28,10 +28,8 @@ endif
 
 
 " Normal
-"hi Normal       gui=NONE guifg=#3c4d61 guibg=#fafcfe
 hi Normal       gui=NONE guifg=#6e6b4a guibg=#edece4
 hi Operator     gui=NONE guifg=#8c895f guibg=BG
-"hi Normal       gui=NONE guifg=#597290 guibg=#e2e7ed
 
 " Search
 hi IncSearch    gui=UNDERLINE guifg=#404040 guibg=#40ffff
@@ -69,13 +67,13 @@ hi MatchParen   gui=BOLD guifg=magenta guibg=black
 
 " Fold
 hi Folded       gui=NONE guifg=#20605c guibg=#b8e8dc
-hi Folded       gui=NONE guifg=#20605c guibg=#ceccb6
+hi Folded       gui=NONE guifg=#20605c guibg=#d9d6c5
 " link does not work with these two
-hi FoldColumn   gui=NONE guifg=#40a098 guibg=#ceccb6
-hi SignColumn   gui=NONE guifg=#40a098 guibg=#ceccb6
+hi FoldColumn   gui=NONE guifg=#40a098 guibg=#d9d6c5
+hi SignColumn   gui=NONE guifg=#40a098 guibg=#d9d6c5
 
-hi PMenu        gui=NONE guifg=fg      guibg=#ceccb6
-hi PMenuSel     gui=NONE guifg=NONE    guibg=#e3e1d5
+hi PMenu        gui=NONE guifg=fg      guibg=#d9d6c5
+hi PMenuSel     gui=NONE guifg=NONE    guibg=#00e0ff
 
 " hi StatusLine   gui=BOLD guifg=bg guibg=fg
 " hi StatusLineNC gui=NONE guifg=fg guibg=#d9d6c5
@@ -93,11 +91,10 @@ hi SpecialKey   gui=NONE guifg=#d9d6c5 guibg=NONE
 "hi Title        gui=NONE guifg=#0050a0 guibg=#c0e8ff
 hi Title        gui=NONE guifg=#105595 guibg=NONE
 
-hi Visual       gui=NONE guifg=#484848 guibg=#e6e2eb
+hi Visual       gui=NONE guifg=#484848 guibg=#00e0ff
 
 " Syntax group
-hi Comment      gui=NONE guifg=#a5a17a guibg=NONE
-"hi Constant     gui=NONE guifg=#186bcf guibg=NONE
+hi Comment      gui=NONE guifg=#9ca278 guibg=NONE
 hi Constant     gui=NONE guifg=#0f4c96 guibg=NONE
 hi link Number Constant
 "hi Identifier   gui=NONE guifg=#186bcf guibg=NONE
@@ -106,16 +103,9 @@ hi Error        gui=NONE guifg=BG guibg=#b24755
 hi Ignore       gui=NONE guifg=#f8f8f8 guibg=NONE
 "hi Noise        gui=None guifg=#666666 guibg=NONE
 hi link Noise Normal
-hi PreProc      gui=NONE guifg=#ff6e1e guibg=NONE
 hi PreProc      gui=NONE guifg=#C17960 guibg=NONE
-
-"hi Special      gui=NONE guifg=#CC0000 guibg=NONE
-"hi Statement    gui=NONE guifg=#135fbc guibg=NONE
-hi Statement    gui=NONE guifg=#1156a9 guibg=NONE
-hi Statement    gui=NONE guifg=#76292F guibg=NONE
-hi Statement    gui=NONE guifg=#7a432a guibg=NONE
-hi Statement    gui=NONE guifg=#b84d12 guibg=NONE
 hi Special      gui=NONE guifg=#b77112 guibg=NONE
+hi Statement    gui=NONE guifg=#b84d12 guibg=NONE
 
 hi Todo         gui=UNDERLINE guifg=#ff0070 guibg=#ffe0f4
 "hi Type         gui=NONE guifg=#186bcf guibg=NONE
@@ -192,7 +182,7 @@ hi link jsNoise                 Operator
 hi link jsBrackets              Operator
 hi link jsBraces                Operator
 hi link jsFuncBraces            Operator
-hi link jsFuncParens            Operator
+hi jsRegexpString guifg=#87a811
 
 
 """""""" Makefile

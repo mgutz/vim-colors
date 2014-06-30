@@ -17,7 +17,7 @@ let colors_name = "cappuccino"
 if version >= 700
   " hi CursorColumn       guibg=#2a2e31
   " hi CursorLine         guibg=#2a2e31
-  hi CursorLineNr       guifg=#d2dae3   guibg=bg      gui=none
+  hi CursorLineNr       guifg=#404040   guibg=bg      gui=none
   " hi MatchParen         guifg=magenta   guibg=black   gui=bold,italic
   " hi Pmenu              guifg=#dfeff6   guibg=#1E415E
   " hi PmenuSel           guifg=#dfeff6   guibg=#2D7889
@@ -32,8 +32,9 @@ hi Normal       gui=NONE guifg=#6e6b4a guibg=#edece4
 hi Operator     gui=NONE guifg=#8c895f guibg=BG
 
 " Search
-hi IncSearch    gui=UNDERLINE guifg=#404040 guibg=#40ffff
-hi Search       gui=NONE guifg=#404040 guibg=#ffff60
+hi IncSearch    gui=UNDERLINE guifg=BG guibg=#c99e70
+hi Search       gui=NONE guifg=#404040 guibg=#c99e70
+hi Search       gui=NONE guifg=BG guibg=#c99e70
 
 " Messages
 hi ErrorMsg     gui=NONE guifg=BG guibg=#b24755

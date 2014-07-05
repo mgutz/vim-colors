@@ -104,12 +104,11 @@ hi Error        gui=NONE guifg=BG guibg=#b24755
 hi Ignore       gui=NONE guifg=#f8f8f8 guibg=NONE
 "hi Noise        gui=None guifg=#666666 guibg=NONE
 hi link Noise Normal
-hi PreProc      gui=NONE guifg=#C17960 guibg=NONE
-hi PreProc      gui=NONE guifg=#98686e guibg=NONE
+hi PreProc      gui=NONE guifg=#cc0000 guibg=NONE
 hi Special      gui=NONE guifg=#b77112 guibg=NONE
 hi Statement    gui=NONE guifg=#b84d12 guibg=NONE
 
-hi Todo         gui=UNDERLINE guifg=#ff0070 guibg=#ffe0f4
+hi Todo         gui=UNDERLINE guifg=#ff0070 guibg=BG
 "hi Type         gui=NONE guifg=#186bcf guibg=NONE
 "hi Type         gui=NONE guifg=#c41487 guibg=NONE
 hi Type         gui=NONE guifg=#9d106c guibg=NONE
@@ -208,7 +207,7 @@ hi link markdownUrl                 Comment
 
 """""""" NERDTree
 
-hi link NERDTreeClosable            PreProc
+hi link NERDTreeClosable            Statement
 "hi link NERDTreeDir                 Statement
 hi link NERDTreeDirSlash            NonText
 hi link NERDTreeExecFile            Type

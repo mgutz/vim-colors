@@ -1,26 +1,26 @@
 {
-	"name": "vim-colors",
-	"version": "1.0.0",
-	"description": "Styled to have",
-	"main": "index.js",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"build": "npx coffee src/generate.coffee"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/mgutz/vim-colors.git"
-	},
-	"keywords": [],
-	"author": "",
-	"license": "ISC",
-	"bugs": {
-		"url": "https://github.com/mgutz/vim-colors/issues"
-	},
-	"homepage": "https://github.com/mgutz/vim-colors#readme",
-	"dependencies": {
-		"coffeescript": "^2.4.1",
-		"underscore": "^1.9.1",
-		"underscore.string": "^3.3.5"
-	}
+  "name": "vim-colors",
+  "version": "1.0.0",
+  "description": "Styled to have",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx coffee src/generate.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mgutz/vim-colors.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mgutz/vim-colors/issues"
+  },
+  "homepage": "https://github.com/mgutz/vim-colors#readme",
+  "dependencies": {
+    "coffeescript": "^2.4.1",
+    "underscore": "^1.9.1",
+    "underscore.string": "^3.3.5"
+  }
 }

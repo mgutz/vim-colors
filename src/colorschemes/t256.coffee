@@ -16,7 +16,10 @@ t256 =
 " To see 256 color index, install:
 "   https://github.com/vim-scripts/xterm-color-table.vim
 """
-  footer: "runtime colors/common/_common_syntax.vim"
+  footer: """
+let s:path = fnamemodify(resolve(expand('<sfile>:p')), ':h')
+exec "source " . s:path . '/common/_common_syntax.vim'
+  """
   background: "dark"
   fg: 252
   # bg: -1

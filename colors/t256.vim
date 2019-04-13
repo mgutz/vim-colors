@@ -76,4 +76,5 @@ else
 
 end
 
-runtime colors/common/_common_syntax.vim
+let s:path = fnamemodify(resolve(expand('<sfile>:p')), ':h')
+exec "source " . s:path . '/common/_common_syntax.vim'

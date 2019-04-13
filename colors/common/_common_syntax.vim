@@ -55,7 +55,7 @@ hi link markdownUrl                 Comment
 
 
 """""""" NERDTree
-hi link NERDTreeClosable            PreProc
+hi link NERDTreeClosable            SpecialKey
 hi link NERDTreeDir                 Statement
 hi link NERDTreeDirSlash            NonText
 hi link NERDTreeExecFile            Type
@@ -89,20 +89,6 @@ hi link shQuote                     String
 hi link xmlEndTag                   htmlEndTag
 hi link xmlTag                      htmlTag
 hi link xmlTagName                  htmlTagName
-
-
-"""""""" NERDTree
-hi link NERDTreeClosable            PreProc
-hi link NERDTreeDir                 Statement
-hi link NERDTreeDirSlash            NonText
-hi link NERDTreeExecFile            Type
-hi      NERDTreeFlag                ctermfg=95 guibg=bg gui=none
-hi link NERDTreeHelp                Comment
-hi link NERDTreeLink                Type
-hi link NERDTreePart                NonText
-hi link NERDTreePartFile            NonText
-hi link NERDTreeOpenable            NERDTreeClosable
-hi link NERDTreeUp                  NERDTreeClosable
 
 
 if exists("g:mgutz_tabline")

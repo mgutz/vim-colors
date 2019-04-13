@@ -19,26 +19,25 @@ t256 =
   footer: "runtime colors/common/_common_syntax.vim"
   background: "dark"
   fg: 252
-  # bg: 16
+  # bg: -1
   bg: -1
 
   colors:
     general: [
       ["Normal",       @fg, @bg]
-      ["Cursor",       16, 255]
-      ["Visual",       16, 24]
+      ["Cursor",       -1, 255]
+      ["Visual",       -1, 24]
       ["VisualNOS",    251, 236]
-      ["Search",       16, 186]
+      ["Search",       -1, 186]
       ["Folded",       103, 237]
       ["Title" ,       173, @bg, "bold"]
       ["StatusLine",   227, 234]
       ["VertSplit" ,   234, 234]
       ["StatusLineNC", 237, 234]
-      ["LineNr" ,      234,  16]
-      ["SpecialKey",   234,  16]
-      ["WarningMsg",   203     ]
+      ["LineNr" ,      234]
+      ["SpecialKey",   240]
+      ["WarningMsg",   203,  -1]
       ["ErrorMsg" ,    196, 236]
-      ["SpecialKey",   234,  16]
 
       # Diff highlighting
       ["DiffAdd",      @fg,  17]
@@ -80,8 +79,8 @@ t256 =
     linux:  [
       ["Comment",      242     ]
       ["CursorLine",    -1, 235]
-      ["LineNr",       236,  16]
-      ["SpecialKey",   236,  16]
+      ["LineNr",       238,  -1]
+      ["SpecialKey",   238,  -1]
       ["StatusLineNC", 240, 234]
     ]
 

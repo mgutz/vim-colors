@@ -17,20 +17,19 @@ endif
 let colors_name="t256"
 
 hi Normal           ctermfg=252             cterm=none guifg=#d0d0d0               gui=none
-hi Cursor           ctermfg=16  ctermbg=255 cterm=none guifg=#000000 guibg=#eeeeee gui=none
-hi Visual           ctermfg=16  ctermbg=24  cterm=none guifg=#000000 guibg=#005f87 gui=none
+hi Cursor                       ctermbg=255 cterm=none               guibg=#eeeeee gui=none
+hi Visual                       ctermbg=24  cterm=none               guibg=#005f87 gui=none
 hi VisualNOS        ctermfg=251 ctermbg=236 cterm=none guifg=#c6c6c6 guibg=#303030 gui=none
-hi Search           ctermfg=16  ctermbg=186 cterm=none guifg=#000000 guibg=#dfdf87 gui=none
+hi Search                       ctermbg=186 cterm=none               guibg=#dfdf87 gui=none
 hi Folded           ctermfg=103 ctermbg=237 cterm=none guifg=#8787af guibg=#3a3a3a gui=none
 hi Title            ctermfg=173             cterm=bold guifg=#df875f               gui=bold
 hi StatusLine       ctermfg=227 ctermbg=234 cterm=none guifg=#ffff5f guibg=#1c1c1c gui=none
 hi VertSplit        ctermfg=234 ctermbg=234 cterm=none guifg=#1c1c1c guibg=#1c1c1c gui=none
 hi StatusLineNC     ctermfg=237 ctermbg=234 cterm=none guifg=#3a3a3a guibg=#1c1c1c gui=none
-hi LineNr           ctermfg=234 ctermbg=16  cterm=none guifg=#1c1c1c guibg=#000000 gui=none
-hi SpecialKey       ctermfg=234 ctermbg=16  cterm=none guifg=#1c1c1c guibg=#000000 gui=none
+hi LineNr           ctermfg=234             cterm=none guifg=#1c1c1c               gui=none
+hi SpecialKey       ctermfg=240             cterm=none guifg=#585858               gui=none
 hi WarningMsg       ctermfg=203             cterm=none guifg=#ff5f5f               gui=none
 hi ErrorMsg         ctermfg=196 ctermbg=236 cterm=none guifg=#ff0000 guibg=#303030 gui=none
-hi SpecialKey       ctermfg=234 ctermbg=16  cterm=none guifg=#1c1c1c guibg=#000000 gui=none
 hi DiffAdd          ctermfg=252 ctermbg=17  cterm=none guifg=#d0d0d0 guibg=#00005f gui=none
 hi DiffDelete       ctermfg=234 ctermbg=60  cterm=none guifg=#1c1c1c guibg=#5f5f87 gui=none
 hi DiffText         ctermfg=252 ctermbg=53  cterm=none guifg=#d0d0d0 guibg=#5f005f gui=none
@@ -68,8 +67,8 @@ if system("uname") == "Darwin\n"
 elseif has("unix")
     hi Comment          ctermfg=242             cterm=none guifg=#666666               gui=none
     hi CursorLine                   ctermbg=235 cterm=none               guibg=#262626 gui=none
-    hi LineNr           ctermfg=236 ctermbg=16  cterm=none guifg=#303030 guibg=#000000 gui=none
-    hi SpecialKey       ctermfg=236 ctermbg=16  cterm=none guifg=#303030 guibg=#000000 gui=none
+    hi LineNr           ctermfg=238             cterm=none guifg=#444444               gui=none
+    hi SpecialKey       ctermfg=238             cterm=none guifg=#444444               gui=none
     hi StatusLineNC     ctermfg=240 ctermbg=234 cterm=none guifg=#585858 guibg=#1c1c1c gui=none
 
 " Windows

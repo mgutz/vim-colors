@@ -19,7 +19,8 @@ t256 =
   footer: "runtime colors/common/_common_syntax.vim"
   background: "dark"
   fg: 252
-  bg: 16
+  # bg: 16
+  bg: -1
 
   colors:
     general: [

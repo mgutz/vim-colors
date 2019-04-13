@@ -8,6 +8,10 @@ colorTable = require('./colorTable')
 _ = require('underscore')
 _s = require('underscore.string')
 
+
+getColor = (color) ->
+  colorTable[color] || -1
+
 # Renders a scheme that is based off 256-color table for both UI and terminal.
 #
 # @see ./colorshemes/t256.coffee
@@ -27,8 +31,8 @@ class TerminalUiSchemer
   # @param {Integer} bg The background index into `colorTable`.
   # @param {String} style The highlight vim style.
   hi: (group, fg=@fg, bg=@bg, style="none") ->
-    guifg = colorTable[fg]
-    guibg = colorTable[bg]
+    guifg = getColor(fg)
+    guibg = getColor(bg)
     args = []
     format = "hi %-16s"
     args.push group
@@ -53,13 +57,13 @@ class TerminalUiSchemer
       format += "              "
     else
       format += " guifg=%-3s"
-      args.push colorTable[fg]
+      args.push getColor(fg)
 
     if bg == -1
       format += "              "
     else
       format += " guibg=%-3s"
-      args.push colorTable[bg]
+      args.push getColor(bg)
 
     format += " gui=%-4s\n"
     args.push style

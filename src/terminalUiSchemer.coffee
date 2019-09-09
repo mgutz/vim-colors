@@ -10,6 +10,9 @@ _s = require('underscore.string')
 
 
 getColor = (color) ->
+  if color == "none"
+    return color
+
   colorTable[color] || -1
 
 # Renders a scheme that is based off 256-color table for both UI and terminal.

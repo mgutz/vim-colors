@@ -43,8 +43,9 @@ exec "source " . s:path . '/common/_common_syntax.vim'
       ["ErrorMsg" ,    196, 236]
 
       # Used by some linters
-      ["SpellCap" ,       246, "none", "underline"]
-      ["SpellBad" ,       9, "none", "underline"]
+      ["SpellCap",     246, "none", "underline"]
+      ["SpellBad",       9, "none", "underline"]
+      ["Error",          9, "none", "underline"]
 
       # Diff highlighting
       ["DiffAdd",      @fg,  17]

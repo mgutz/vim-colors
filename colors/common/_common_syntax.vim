@@ -56,6 +56,7 @@ hi link markdownUrl                 Comment
 
 """""""" NERDTree
 hi link NERDTreeClosable            SpecialKey
+"hi link NERDTreeCWD                 String
 hi link NERDTreeDir                 Statement
 hi link NERDTreeDirSlash            NonText
 hi link NERDTreeExecFile            Type

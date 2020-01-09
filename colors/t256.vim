@@ -30,9 +30,9 @@ hi LineNr           ctermfg=234             cterm=none guifg=#1c1c1c            
 hi SpecialKey       ctermfg=240             cterm=none guifg=#585858               gui=none
 hi WarningMsg       ctermfg=203             cterm=none guifg=#ff5f5f               gui=none
 hi ErrorMsg         ctermfg=196 ctermbg=236 cterm=none guifg=#ff0000 guibg=#303030 gui=none
-hi SpellCap         ctermfg=246 ctermbg=none cterm=underline guifg=#949494 guibg=none gui=underline
-hi SpellBad         ctermfg=9   ctermbg=none cterm=underline guifg=#ff0000 guibg=none gui=underline
-hi Error            ctermfg=9   ctermbg=none cterm=underline guifg=#ff0000 guibg=none gui=underline
+hi SpellCap         ctermfg=246             cterm=underline guifg=#949494               gui=underline
+hi SpellBad         ctermfg=9               cterm=underline guifg=#ff0000               gui=underline
+hi Error            ctermfg=9               cterm=underline guifg=#ff0000               gui=underline
 hi DiffAdd          ctermfg=252 ctermbg=17  cterm=none guifg=#d0d0d0 guibg=#00005f gui=none
 hi DiffDelete       ctermfg=234 ctermbg=60  cterm=none guifg=#1c1c1c guibg=#5f5f87 gui=none
 hi DiffText         ctermfg=252 ctermbg=53  cterm=none guifg=#d0d0d0 guibg=#5f005f gui=none

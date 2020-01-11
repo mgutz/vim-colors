@@ -10,8 +10,8 @@ _s = require('underscore.string')
 
 
 getColor = (color) ->
-  if color == "none"
-    return color
+  if typeof color == 'string' && color.toLowerCase() == "none"
+    return 'NONE'
 
   colorTable[color] || -1
 

@@ -20,7 +20,7 @@
   "homepage": "https://github.com/mgutz/vim-colors#readme",
   "dependencies": {
     "coffeescript": "^2.4.1",
-    "underscore": "^1.9.1",
+    "underscore": "^1.12.1",
     "underscore.string": "^3.3.5"
   }
 }
